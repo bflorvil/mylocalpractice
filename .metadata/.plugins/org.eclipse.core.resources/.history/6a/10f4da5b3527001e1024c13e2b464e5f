@@ -1,0 +1,14 @@
+package Practice;
+
+public class ForLoops {
+
+	public static void main(String[] args) {
+		int i = 0;
+		boolean bool = i<=10;
+		for (; bool; i++) {
+			System.out.print(i + "\t");
+		}
+
+	}
+
+}

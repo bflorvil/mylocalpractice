@@ -1,0 +1,14 @@
+package Practice;
+public class PrintStatements {
+
+	public static void main(String[] args) {
+		System.out.print("Hello World!\nHow are you?");
+	    System.out.print("\nI'm fine thanks for asking");
+	    System.out.print("\n"+5+"\t"+4);
+	    attempt();
+
+	}
+	public static String attempt() {
+		return "hello";
+	}
+}

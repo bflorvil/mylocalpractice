@@ -1,0 +1,41 @@
+package Exceptional;
+import java.util.*;
+
+
+public class Baseball {
+
+	public static void main(String[] args) {
+		 Baseball b = new Baseball();
+		try {b.basketball();
+		for
+			
+		} catch (ExceptionOne eo) {
+			System.out.println(eo.getMessage());
+			
+		}
+	    
+
+	}
+	
+	public int[] basketball() throws ExceptionOne {
+		int i = 0;
+		int[] nums = new int[3];
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Please enter 3 positive integers:");
+		while (scan.hasNext() && i < 3) {
+			nums[i] = scan.nextInt();
+			if (nums[i] < 0) {
+				throw new ExceptionOne("Must be a positive integer");
+			}
+			
+			i++;
+			
+			
+		}
+		
+		return nums;
+		
+	}
+
+}
+

@@ -1,0 +1,12 @@
+package Practice;
+
+public class TypeCasting {
+/////////////////////////////// Bitter Black Coffee Sure Is For Long Days////////////////////////////////////////////////
+	public static void main(String[] args) {
+		int i = 3;
+		long l = i; // no need to explicitly cast long since long holds more bits than int (it's done automatically/implicitly)
+		byte b = (byte) i; // need to explicitly cast byte since int holds more bits than byte (since there is potential for data loss) 
+
+	}
+
+}

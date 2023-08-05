@@ -1,0 +1,14 @@
+package Practice;
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		int[] myArr = new int[5];
+		String[] myPokemon = {"Charizard", "Arcanine", "Lapras", "Ninetales", "Rapidash", "Articuno"};
+		char[] myChars = {'a','b','?'};
+		myArr[4] = 100;
+		System.out.println(myArr);
+
+	}
+
+}

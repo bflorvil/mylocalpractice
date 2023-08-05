@@ -1,0 +1,16 @@
+package MorePractice;
+import java.util.*;
+
+public class ListPractice {
+
+	public static void main(String[] args) {
+		// List<String> a = new List<String> (); List is an interface and has no constructor
+		List<String> b = new ArrayList<String>(); // default size of 10
+		List<Integer> c = new ArrayList<Integer>();
+		List<Pokemon> party = new ArrayList<Pokemon>(6); //initial size of 6 but it can be expanded
+		System.out.println(Pokemon.party);
+        
+		
+	}
+
+}

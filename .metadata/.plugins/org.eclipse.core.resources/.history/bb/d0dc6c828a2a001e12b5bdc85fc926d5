@@ -1,0 +1,13 @@
+package Exceptional;
+
+public class ExceptionOne extends Exception {
+	
+	public ExceptionOne(String s) {
+		super(s); //using Exception (String message) constructor 
+		
+	}
+	
+
+	}
+
+

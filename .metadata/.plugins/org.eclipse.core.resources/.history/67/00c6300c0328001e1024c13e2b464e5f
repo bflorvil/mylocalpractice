@@ -1,0 +1,17 @@
+package Practice;
+public class PrintStatements {
+
+	public static void main(String[] args) {
+		int x = 5;
+		System.out.print("Hello World!\nHow are you?");
+	    System.out.print("\nI'm fine thanks for asking");
+	    System.out.print("\n"+5+"\t"+4);
+	    attempt();
+	    System.out.println("String.valueOf(x) is the value of x");
+
+	}
+	public static String attempt() {
+	    String y;
+		return y = (5 > 4) ? "Yes" : "No"; //ignores assignment to y... return (5 > 4) ? "Yes" : "No"
+	}
+}

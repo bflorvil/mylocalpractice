@@ -1,0 +1,13 @@
+package Practice;
+
+public class IFstatements {
+
+	public static void main(String[] args) {
+		int time = 16;
+		String ans = (time > 12) ? "Morning" : "Night";
+		System.out.println(ans);
+		
+
+	}
+
+}

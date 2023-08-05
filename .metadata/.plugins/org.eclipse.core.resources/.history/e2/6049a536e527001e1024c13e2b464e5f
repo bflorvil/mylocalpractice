@@ -1,0 +1,21 @@
+package Practice;
+
+public class ArraysStatements {
+
+	public static void main(String[] args) {
+		int[] myArr = new int[5];
+		String[] myPokemon = {"Charizard", "Arcanine", "Lapras", "Ninetales", "Rapidash", "Articuno"};
+		char[] myChars = {'a','b','?'};
+		myArr[4] = 100;
+		System.out.println(myArr[3]);
+		for(int i = 0; i < myPokemon.length; i++)
+			System.out.println(myPokemon[i]);
+		System.out.println(Arrays.);
+		   
+		
+			
+		
+
+	}
+
+}

@@ -1,0 +1,9 @@
+package Practice;
+public class Examples {
+
+	public static void main(String[] args) {
+		System.out.print("Hello World!" + "\n" + "How are you?");
+	    System.out.print("\n" + "I'm fine thanks for asking");
+
+	}
+}

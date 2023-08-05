@@ -1,0 +1,23 @@
+package MorePractice;
+import java.util.*;
+
+public class ListPractice {
+	static String[] myPokemon = Pokemon.party;
+
+	public static void main(String[] args) {
+		// List<String> a = new List<String> (); List is an interface and has no constructor
+		List<String> b = new ArrayList<String>(); // default size of 10
+		List<Integer> c = new ArrayList<Integer>();
+		List<String> party = new ArrayList<String>(6); //initial size of 6 but it can be expanded
+		
+		for (String p : myPokemon) {
+			party.add(2,p);
+		}
+		System.out.println(party);
+		
+		
+        
+		
+	}
+
+}

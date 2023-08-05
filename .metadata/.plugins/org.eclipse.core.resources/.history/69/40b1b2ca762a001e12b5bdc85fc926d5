@@ -1,0 +1,8 @@
+package Exceptional;
+
+public class ExceptionOne throws NEGATIVENUMBEREXCEPTION {
+	
+
+	}
+
+}

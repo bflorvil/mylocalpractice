@@ -1,0 +1,13 @@
+package Practice;
+import java.util.*;
+
+public class ListPractice {
+
+	public static void main(String[] args) {
+		List<MathTests> a = new List<MathTests>();
+		List b = new ArrayList();
+		List c = new LinkedList();
+        
+	}
+
+}

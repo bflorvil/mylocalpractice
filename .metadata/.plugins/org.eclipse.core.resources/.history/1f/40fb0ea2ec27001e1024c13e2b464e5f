@@ -1,0 +1,15 @@
+package Practice;
+
+public class MathTests {
+
+	public static void main(String[] args) {
+		double z = 15.67;
+		int x = 10;
+		int y = 3;
+		System.out.println(x/y);
+		System.out.println(x % y);
+		System.out.println(z/y);
+
+	}
+
+}

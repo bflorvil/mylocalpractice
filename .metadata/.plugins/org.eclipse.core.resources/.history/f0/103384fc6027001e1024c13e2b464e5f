@@ -1,0 +1,28 @@
+package Practice;
+
+public class StaticExamples {
+	static int x = 5;
+	int y = 10;
+		public static void main(String[] args) {
+			hello();
+			sayonara();
+		
+
+		}
+	
+		public static void hello() {//can only reference static variables and other static methods
+			System.out.println(x);  
+			sayonara();
+		}
+		
+		public void bye() {
+			hello();
+			System.out.println(y);
+		}
+		
+		public static void sayonara() {
+			System.out.println("goodbye");
+			
+		}
+
+}

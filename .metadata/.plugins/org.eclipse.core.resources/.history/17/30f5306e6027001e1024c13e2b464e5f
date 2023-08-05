@@ -1,0 +1,16 @@
+package Practice;
+
+public class StaticExamples {
+	static int x = 5;
+	int y = 10;
+		public static void main(String[] args) {
+			hello();
+		
+
+		}
+	
+		public static void hello() {
+		System.out.println(y);
+		}
+
+}
