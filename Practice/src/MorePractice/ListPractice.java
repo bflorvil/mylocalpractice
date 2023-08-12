@@ -9,7 +9,8 @@ public class ListPractice {
 	public static void main(String[] args) {
 		// List<String> a = new List<String> (); List is an interface and has no constructor
 		List<String> b = new ArrayList<String>(); // default size of 10
-		List<Integer> c = new LinkedList<Integer>();
+		List<Integer> c = new ArrayList<Integer>();
+		c.add(1);c.add(2);c.add(3);c.add(-5);
 		List<String> party = new ArrayList<String>(6); //initial size of 6 but it can be expanded
 		
 		for (String p : myPokemon) { //or can use Arrays.asList(myPokemon) to make it into a list
@@ -28,14 +29,23 @@ public class ListPractice {
 		System.out.println(party.indexOf("Charizard"));
 		System.out.println(party.indexOf("Pikachu")); //returns -1 if not found in list
 		
-		//ListIterator???
 		
 		ListIterator<String> it =  party.listIterator(party.size()); //can start list iterator at the end of the list with parameter
 		while (it.hasPrevious()) {     
 			System.out.println(it.previousIndex());
 			System.out.println(it.previous().toUpperCase());
+			System.out.println(it.previous());
 			
+		} 
+		int max = 0;
+		int min = 0;
+		for (Integer i : c) {
+			if (i > max)
+				max = i;
+			else if (i < min)
+				min = i;
 		}
+		System.out.println(max + " " + min);
 		
 	
 		
