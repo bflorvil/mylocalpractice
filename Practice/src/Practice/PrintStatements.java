@@ -4,7 +4,7 @@ public class PrintStatements {
 	int a = 35;
 
 	public static void main(String[] args) {
-		/* int y = 40;
+		int y = 40;
 		String[] myStrings = new String[5];
 		String x = new String("5");
 		System.out.print("Hello World!\nHow are you?");
@@ -25,12 +25,10 @@ public class PrintStatements {
 	    System.out.println(ps.toString()); // getClass().getName() @ hashcode of object
 	    System.out.println(ps); // equivalent to ps.toString()
 	    System.out.println(ps.getClass().getName());
-	    System.out.println('A'<'B');
-	    */
-	    Scanner scan = new Scanner(System.in);
-	    scan.skip("(hi|hello)?");
-	    System.out.println(scan.next());
-	    scan.close();
+	    System.out.println('A'<'B'); 
+	   
+	    
+	    
 	    
 	   
 	   
